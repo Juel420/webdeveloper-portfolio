@@ -2,8 +2,12 @@
         .text-primary{
             color: #FD6E0A;
         }
+        .header{
+            background: #FFF8F3;
+        }
 nav{
     display: flex;align-items: center;justify-content: space-between;
+    margin: 0 200px;
 }
 ul{display: flex; align-items: center;}
  nav li{list-style: none;margin: 50px;}
@@ -22,4 +26,13 @@ font-weight: 700;
 border: 0;padding: 18px 35px;
             
         }
+        .banner{
+            padding: 30px 30px 30px 150px;
+            display: flex;
+            align-items: center;
+        }
+            
+            .banner.profile picture{
+                width: 50PX;
+            }
 
